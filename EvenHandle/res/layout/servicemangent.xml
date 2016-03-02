@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.hulian.evenhandle.util.ImageButtonDefine
+            android:id="@+id/but_repair"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:background="#00000000"
+            android:src="@drawable/ic_launcher"
+            android:text="报修"
+            android:textColor="#cc0000" />
+
+        <com.hulian.evenhandle.util.ImageButtonDefine
+            android:id="@+id/but_mangent"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:background="#00000000"
+            android:src="@drawable/ic_launcher"
+            android:text="管理"
+            android:textColor="#cc0000" />
+
+        <com.hulian.evenhandle.util.ImageButtonDefine
+            android:id="@+id/but_save"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#00000000"
+            android:src="@drawable/ic_launcher"
+            android:text="安全"
+            android:textColor="#cc0000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.hulian.evenhandle.util.ImageButtonDefine
+            android:id="@+id/but_health"
+            android:layout_width="220dp"
+            android:layout_height="130dp"
+            android:background="#00000000"
+            android:src="@drawable/ic_launcher"
+            android:text="卫生"
+            android:textColor="#cc0000" />
+        
+        <com.hulian.evenhandle.util.ImageButtonDefine
+            android:id="@+id/but_illegal"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="#00000000"
+            android:src="@drawable/ic_launcher"
+            android:text="违规"
+            android:textColor="#cc0000" />
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.hulian.evenhandle.util.ImageButtonDefine
+            android:id="@+id/but_service"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:background="#00000000"
+            android:src="@drawable/ic_launcher"
+            android:text="在线服务"
+            android:textColor="#cc0000" />
+
+        <com.hulian.evenhandle.util.ImageButtonDefine
+            android:id="@+id/but_complaints"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:background="#00000000"
+            android:src="@drawable/ic_launcher"
+            android:text="投诉"
+            android:textColor="#cc0000" />
+
+        <com.hulian.evenhandle.util.ImageButtonDefine
+            android:id="@+id/but_opinion"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#00000000"
+            android:src="@drawable/ic_launcher"
+            android:text="意见"
+            android:textColor="#cc0000" />
+    </LinearLayout>
+    
+</LinearLayout>

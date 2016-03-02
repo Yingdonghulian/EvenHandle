@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   <com.hulian.evenhandle.view.NoScrollViewPager
+         android:id="@+id/vp_main"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+         android:layout_weight="1"   />
+    <RadioGroup 
+        android:id="@+id/maintab_but"
+         android:layout_width="match_parent"
+          android:layout_height="wrap_content" 
+          android:background="@drawable/category_bg"
+          android:orientation="horizontal">
+        <RadioButton      
+            android:id="@+id/but_home" 
+            style="@style/BottomTabstyle"
+            android:drawableTop="@drawable/btn_tabhome_selector"
+            android:text="首页" 
+            />
+        <RadioButton       
+            android:id="@+id/but_service" 
+            style="@style/BottomTabstyle"
+            android:drawableTop="@drawable/btn_tabmanagement_selector"
+            android:text="服务" 
+            />
+        <RadioButton    
+            android:id="@+id/but_news"    
+            style="@style/BottomTabstyle"
+            android:drawableTop="@drawable/btn_tabhnews_selector"
+            android:text="消息" 
+            />
+        <RadioButton  
+            android:id="@+id/but_mine"      
+            style="@style/BottomTabstyle"
+            android:drawableTop="@drawable/btn_tabmine_selector"
+            android:text="我的" 
+            />
+        
+    </RadioGroup>
+
+</LinearLayout>

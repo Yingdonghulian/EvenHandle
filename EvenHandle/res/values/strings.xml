@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">社区助手</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string-array name="city_label">
+        <item>水电维修</item>
+        <item>家电维修</item>
+    </string-array>
+    <!-- 个人中心 -->
+    <string name="personal_login">登录/注册</string>
+
+</resources>
