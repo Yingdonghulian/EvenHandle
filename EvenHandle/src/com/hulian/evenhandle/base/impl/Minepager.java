@@ -2,11 +2,10 @@ package com.hulian.evenhandle.base.impl;
 
 
 import java.util.ArrayList;
+import com.google.gson.Gson;
 import com.hulian.evenhandle.base.BaseMenuDetailPager;
 import com.hulian.evenhandle.base.Basepager;
 import com.hulian.evenhandle.pagerdetail.MineDetail;
-import com.hulian.evenhandle.pagerdetail.ServiceDetail;
-
 import android.app.Activity;
 import android.view.View;
 public class Minepager extends Basepager {

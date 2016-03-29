@@ -7,95 +7,94 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:focusable="true"
             android:focusableInTouchMode="true"
-            android:orientation="vertical"
-             >
-        <LinearLayout 
-            android:layout_height="140dp"
-            android:layout_width="match_parent"
-            android:orientation="horizontal"
-            >
-
+            android:orientation="vertical" >
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/my__back"
-                android:gravity="center" >
+                android:layout_height="140dp"
+                android:orientation="horizontal" >
 
-            <Button
-             android:id="@+id/login_button"
-             android:layout_width="70dp"
-             android:layout_height="70dp"
-             android:layout_marginTop="8dp"  
-             android:text="@string/personal_login"
-             android:background="@drawable/login_button" 
-             android:textColor="@color/login_button"
-             android:textSize="15sp"
-             android:textStyle="bold"
-             android:src="@drawable/avatar_default"
-             android:scaleType="fitXY"                                                       
-             />
-             </LinearLayout>                 
-            </LinearLayout>
-            
-          <LinearLayout
-                android:id="@+id/ll_userinfo"
-                android:layout_width="match_parent"
-                android:layout_height="88dp"
-                android:background="@drawable/bg_white2gray_sel"
-                android:orientation="horizontal"
-                android:padding="16dp"
-                android:visibility="gone" >
-                
-              <ImageView
-                    android:id="@+id/iv_avatar"
-                    android:layout_width="56dp"
-                    android:layout_height="56dp"
-                    android:layout_gravity="center_vertical"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/ic_launcher" />
-
-                <RelativeLayout
-                    android:id="@+id/rl_content"
+                <LinearLayout
+                    android:id="@+id/to_logingroup"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:paddingLeft="8dp"
-                    android:paddingTop="8dp" 
-                    >
-
-                    <TextView
-                        android:id="@+id/tv_subhead"
-                        style="@style/TextViewSubhead"
-                        android:text="吴彦祖" />
-
-                    <TextView
-                        android:id="@+id/tv_caption"
-                        style="@style/TextViewCaption"
-                        android:layout_below="@id/tv_subhead"
+                    android:layout_height="136dp"
+                    android:background="@drawable/my__back"
+                    android:gravity="center" >
+                    <Button
+                        android:id="@+id/login_button"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
                         android:layout_marginTop="8dp"
-                        android:text="没错,我就是油坊桥吴彦祖"
-                        android:textColor="@color/txt_gray" />
-
+                        android:background="@drawable/login_button"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/avatar_default"
+                        android:text="@string/personal_login"
+                        android:textColor="@color/login_button"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ll_userinfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="88dp"
+                    android:background="@drawable/bg_white2gray_sel"
+                    android:orientation="horizontal"
+                    android:padding="16dp"
+                    android:visibility="gone" >
                     <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:layout_alignParentRight="true"
-                        android:layout_centerVertical="true"
-                        android:src="@drawable/rightarrow" />
-                </RelativeLayout>
+                        android:id="@+id/iv_avatar"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_gravity="center_vertical"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ic_launcher" />
+                    <RelativeLayout
+                        android:id="@+id/rl_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingLeft="8dp"
+                        android:paddingTop="8dp" >
+                        <TextView
+                            android:id="@+id/tv_subhead"
+                            style="@style/TextViewSubhead"
+                            android:text="吴彦祖" />
+                        <TextView
+                            android:id="@+id/tv_caption"
+                            style="@style/TextViewCaption"
+                            android:layout_below="@id/tv_subhead"
+                            android:layout_marginTop="8dp"
+                            android:text="没错,我就是油坊桥吴彦祖"
+                            android:textColor="@color/txt_gray" />
+                        <Button
+                            android:id="@+id/tv_menment"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="20dp"
+                            android:background="@null"
+                            android:text="账户管理"
+                            android:textSize="12sp" />
+                        <ImageButton
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:background="@null"
+                            android:src="@drawable/rightarrow" />
+                    </RelativeLayout>
+                </LinearLayout>
             </LinearLayout>
-             <View
+
+            <View
                 android:layout_width="match_parent"
                 android:layout_height="1px"
                 android:background="@color/divider_gray" />
-
             <include layout="@layout/include_userinfo_interaction" />
-
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1px"
@@ -107,9 +106,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp" >
             </com.hulian.evenhandle.view.WrapHeightListView>
-
-                </LinearLayout>
-              
+        </LinearLayout>
     </ScrollView>
 
 </LinearLayout>

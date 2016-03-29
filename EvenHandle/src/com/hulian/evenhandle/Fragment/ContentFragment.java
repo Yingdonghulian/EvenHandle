@@ -99,7 +99,7 @@ public class ContentFragment extends BaseFragment {
 
 			Basepager pager = mPagerList.get(position);
 			container.addView(pager.mRootView);
-			pager.initData();// 初始化数据.... 不要放在此处初始化数据, 否则会预加载下一个页面
+		   pager.initData();// 初始化数据.... 不要放在此处初始化数据, 否则会预加载下一个页面
 			return pager.mRootView;
 		}
 

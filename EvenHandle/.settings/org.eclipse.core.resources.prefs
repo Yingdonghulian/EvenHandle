@@ -1,4 +1,14 @@
 eclipse.preferences.version=1
 encoding//src/cn/sharesdk/onekeyshare=UTF-8
+encoding//src/com/hulian/evenhandle/ServicePhoto/AlbumActivity.java=UTF-8
+encoding//src/com/hulian/evenhandle/ServicePhoto/GalleryActivity.java=UTF-8
+encoding//src/com/hulian/evenhandle/ServicePhoto/ImageFile.java=UTF-8
+encoding//src/com/hulian/evenhandle/ServicePhoto/MainActivity.java=UTF-8
+encoding//src/com/hulian/evenhandle/ServicePhoto/ShowAllPhoto.java=UTF-8
+encoding//src/com/hulian/evenhandle/ServicePhoto/adapter/AlbumGridViewAdapter.java=UTF-8
+encoding//src/com/hulian/evenhandle/ServicePhoto/adapter/FolderAdapter.java=UTF-8
+encoding//src/com/hulian/evenhandle/ServicePhoto/util/Bimp.java=UTF-8
+encoding//src/com/hulian/evenhandle/ServicePhoto/util/Res.java=UTF-8
 encoding//src/com/hulian/evenhandle/util/CacheUtils.java=UTF-8
 encoding//src/com/hulian/evenhandle/util/DensityUtils.java=UTF-8
+encoding//src/com/hulian/evenhandle/util/SendPostData.java=UTF-8

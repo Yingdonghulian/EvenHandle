@@ -86,4 +86,5 @@ public class HomeMenuDetail extends BaseMenuDetailPager {
 			container.removeView((View)object);
 		}
 }
+		
 }

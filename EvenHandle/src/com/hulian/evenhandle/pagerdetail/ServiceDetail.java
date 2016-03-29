@@ -3,6 +3,7 @@ package com.hulian.evenhandle.pagerdetail;
 import java.lang.annotation.Annotation;
 import java.util.ArrayList;
 import com.hulian.evenhandle.R;
+import com.hulian.evenhandle.ServicePhoto.MainActivity;
 import com.hulian.evenhandle.base.BaseMenuDetailPager;
 import com.hulian.evenhandle.detailcontent.NewsDetailActivity;
 import com.lidroid.xutils.ViewUtils;
@@ -79,7 +80,7 @@ public class ServiceDetail extends BaseMenuDetailPager implements OnClickListene
 						@Override
 						public void onClick(View arg0) {
 							Intent intent=new Intent();
-							intent.setClass(mActivity, ServiceComment.class);
+							intent.setClass(mActivity, MainActivity.class);
 							mActivity.startActivity(intent);
 						}
 					});
@@ -99,5 +100,6 @@ public class ServiceDetail extends BaseMenuDetailPager implements OnClickListene
 	 }
 			@Override
 			public void onClick(View v) {
-			}		
+			}
+			
 	}

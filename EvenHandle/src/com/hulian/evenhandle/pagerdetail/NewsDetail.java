@@ -87,4 +87,5 @@ public class NewsDetail extends BaseMenuDetailPager{
 	 			container.removeView((View)object);
 	 		}
 	 }
+		
 	}

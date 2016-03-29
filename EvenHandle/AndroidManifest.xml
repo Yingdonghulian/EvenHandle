@@ -7,6 +7,15 @@
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="21" />
+    
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <!-- ShareSDK -->
@@ -37,6 +46,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+                <activity android:name="com.hulian.evenhandle.ServicePhoto.ImageFile"/>
+                <activity android:name="com.hulian.evenhandle.ServicePhoto.ShowAllPhoto"/>
+                        <activity android:name="com.hulian.evenhandle.ServicePhoto.GalleryActivity"/>
+                        <activity android:name="com.hulian.evenhandle.ServicePhoto.util.BitmapCache"/>
+                        
+        <activity android:name="com.hulian.evenhandle.ServicePhoto.AlbumActivity"/>
+        <activity android:name="com.hulian.evenhandle.ServicePhoto.MainActivity" />
+        <activity android:name="com.hulian.evenhandle.detailcontent.HomeContentDetail"/>
+        <activity android:name="com.hulian.evenhandle.pagerdetail.SignUpActivity"/>
+        <activity android:name="com.hulian.evenhandle.pagerdetail.Mine_Detail"/>
+        <activity android:name="com.hulian.evenhandle.base.impl.Minepager"/>
+        <activity android:name="com.hulian.evenhandle.pagerdetail.MineDetail"/>
         <activity  android:name="com.hulian.evenhandle.pagerdetail.ServiceComment"/>
         <activity   android:name="com.hulian.evenhandle.GuideActivity"/>
         <activity android:name="com.hulian.evenhandle.pagerdetail.ServiceDetail"/>

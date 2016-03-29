@@ -130,7 +130,7 @@ public class HomeContentDetail extends BaseMenuDetailPager implements OnPageChan
 
 	@Override
 	public void initData() {
-	// …Ë÷√ª∫¥Ê
+	     // …Ë÷√ª∫¥Ê
 		 String cache = CacheUtils.getCache(mUrl, mActivity);
 		 if(!TextUtils.isEmpty(cache)){
 		 parseData(cache, false);

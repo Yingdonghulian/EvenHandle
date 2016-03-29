@@ -26,5 +26,5 @@ public class ActivityMenuDetail extends BaseMenuDetailPager {
 		text.setGravity(Gravity.CENTER);
 		return text;
 	}
-
+	
 }
